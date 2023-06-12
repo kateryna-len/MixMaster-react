@@ -5,7 +5,6 @@ import img from '../assets/not-found.svg';
 
 function Error() {
   const error = useRouteError();
-  console.log(error);
   if (error.status === 404) {
     return (
       <Wrapper>

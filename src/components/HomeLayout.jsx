@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 function HomeLayout() {
   const navigate = useNavigation();
   const isLoading = navigate.state === 'loading';
-  console.log(67, isLoading);
+
   return (
     <div>
       <Navbar />
